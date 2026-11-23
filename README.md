@@ -1,71 +1,68 @@
-# Daily Planner Generator
+# Günlük Ajanda Oluşturucu
 
-A single HTML page that builds a personalised, fully hyperlinked PDF daily planner for e-ink tablets such as Boox.
+Boox ve Kobo gibi e-mürekkep cihazları için kişiselleştirilebilir, sayfaları birbirine bağlantılı bir PDF ajanda oluşturur. Kurulum veya hesap gerekmez. PDF tarayıcınızda hazırlanır ve dosyalarınız cihazınızdan çıkmaz.
 
-Everything runs in your browser: no install, no account, and nothing is uploaded anywhere.
+## Kullanım
 
-## Using it
+1. `index.html` dosyasını indirin ve güncel bir tarayıcıda açın.
+2. Ayarları seçin. Sağdaki önizleme, ayarları değiştirdikçe güncellenir.
+3. **PDF Oluştur** düğmesine tıklayın. Bir yıllık ajandanın hazırlanması birkaç saniye sürer. PDF hazır olduğunda indirilir.
+4. PDF’yi cihazınıza kopyalayın ve belge içi bağlantıları destekleyen bir okuyucuda açın.
 
-1. Open the live version at https://cosmo-nz.github.io/Daily_Planner/, or download `index.html` and open it in any modern browser, either straight from disk or from any static web host.
-2. Choose your settings. The preview on the right updates as you go.
-3. Click **Generate PDF**. A full year takes a few seconds, and the PDF downloads when it's done.
-4. Copy the PDF to your tablet and open it in a reader that supports internal links.
+## Ayarlar
 
-## Settings
-
-| Setting | Options |
+| Ayar | Seçenekler |
 |---|---|
-| Document name | Shown on the cover and used in the file name |
-| Calendar year | 2026 to 2035 |
-| Week start | Monday or Sunday |
-| Handedness | Right or left (left mirrors the navigation to the other side) |
-| Planner font | PT Sans (default), Inter, Atkinson Hyperlegible, Bitter, PT Serif |
-| Page shape | 3:4 (default), A4 shape or 16:10, to suit your device (see below) |
-| Schedule from / to | 06:00 to 20:00 in 30-minute steps (default 08:30 to 17:00) |
-| Interval | 30 or 60 minutes per schedule row |
-| Daily notes pages | 1, 2 or 3 per day |
-| Cover page | On or off |
+| Belge adı | Kapakta ve dosya adında kullanılır |
+| Takvim yılı | 2026–2035 |
+| Haftanın ilk günü | Pazartesi veya pazar |
+| Baskın el | Sağ veya sol. Sol el seçildiğinde gezinme düğmeleri karşı tarafa geçer. |
+| Yazı tipi | Ajanda Sans (varsayılan), Inter, Atkinson Hyperlegible, Bitter, Ajanda Serif |
+| Sayfa ölçüsü | 3:4 (varsayılan), A4 oranı, 16:10 veya Kobo Libra Colour |
+| Başlangıç ve bitiş saati | 06:00–20:00 arasında 30 dakikalık adımlarla seçilebilir. Varsayılan saatler 08:30 ve 17:00. |
+| Zaman aralığı | Programdaki her satır için 30 veya 60 dakika |
+| Günlük not sayfaları | Günde 1, 2 veya 3 sayfa |
+| Kapak sayfası | İsteğe bağlı |
 
-## What's in the PDF
+## PDF içeriği
 
-- **Cover** (optional): the planner name and year, with a grid of the 12 months.
-- **Month calendar page**, just before each month's 1st: a date grid where every date links to its day, plus a notes area.
-- **Daily Plan page** for every day: tasks with checkboxes, a reminders box, and a timed schedule.
-- **Daily Notes pages** (1 to 3 per day): lined pages for writing.
+- **Kapak** (isteğe bağlı) ajandanın adını, yılını ve 12 aya giden bağlantıları içerir.
+- **Aylık takvim** her ayın ilk gününden hemen önce gelir. Tarihler, ilgili günlük planı açar. Takvimin altında bir not alanı bulunur.
+- **Günlük plan** yapılacaklar, hatırlatmalar ve saatli program için ayrı alanlar içerir.
+- **Günlük notlar** her gün için bir ila üç çizgili sayfadan oluşur.
 
-### Page shape
+### Sayfa ölçüleri
 
-Choose the shape that matches your screen so the page fills it without blank bands. All three are 540 pt (7.5 in) wide; taller shapes give you more writing space rather than a different layout.
+Cihazınızın ekranına uygun oranı seçin. Tüm seçenekler 540 pt (7,5 inç) genişliğindedir. Yükseklik, yazı alanını belirler.
 
-| Shape | Page size | Best for |
+| Seçenek | PDF ölçüsü | Uygun cihazlar |
 |---|---|---|
-| 3:4 | 540 × 720 pt (7.5 × 10 in) | E-ink tablets (Boox, reMarkable, Kindle Scribe, Kobo, Supernote) and 13″ iPads |
-| A4 shape (0.71) | 540 × 764 pt (7.5 × 10.61 in) | 11″ iPads, iPad mini, Surface Pro, and printing on A4 |
-| 16:10 | 540 × 864 pt (7.5 × 12 in) | Samsung Galaxy Tab and other Android tablets |
+| 3:4 | 540 × 720 pt | Boox, reMarkable, Kindle Scribe, Supernote ve 13 inç iPad |
+| A4 oranı | Yaklaşık 540 × 764 pt | 11 inç iPad, iPad mini, Surface Pro ve A4 kâğıda baskı |
+| 16:10 | 540 × 864 pt | Samsung Galaxy Tab ve diğer Android tabletler |
+| Kobo Libra Colour | Yaklaşık 540 × 717,72 pt | 1264 × 1680 piksel Kobo Libra Colour ekranı |
 
-The 3:4 shape also prints well on US Letter paper.
+3:4 oranı, ABD Letter kâğıdına baskıya da uygundur.
 
-### Navigation
+### Gezinme
 
-- **Month tabs** at the top of every page open that month's calendar page.
-- **Day buttons** under each day's title jump to the other days of that week.
-- **◀ ▶ arrows** step a week on day pages and a month on calendar pages.
-- **Daily Plan ⇄ Daily Notes** buttons switch between a day's pages, and numbered tabs pick a notes page.
+- Sayfanın üstündeki **ay sekmeleri** ilgili ayın takvimini açar.
+- Gün başlığının altındaki **gün düğmeleri** aynı haftanın diğer günlerine götürür.
+- **◀ ▶ okları** günlük sayfalarda haftayı, takvim sayfalarında ayı değiştirir.
+- **Günlük Plan** ve **Günlük Notlar** düğmeleri aynı günün sayfaları arasında geçiş yapar. Numaralı sekmeler not sayfasını seçer.
 
-With the default settings a 2026 planner is 1,108 pages.
+Varsayılan ayarlarla 2026 ajandası 1.108 sayfadır.
 
-## Offline use
+## Çevrimdışı kullanım
 
-The page works without an internet connection:
+`index.html` dosyası internet bağlantısı olmadan çalışır. Türkçe karakterleri destekleyen yazı tipleri dosyaya gömülüdür. Sayfa, jsPDF 4.2.1’i jsDelivr üzerinden yükleyemezse gömülü kopyayı kullanır.
 
-- **Fonts** are built into the file (latin character set only).
-- **PDF engine:** the page loads jsPDF 4.2.1 from jsDelivr and falls back to an identical copy built into the file if it can't reach the internet.
+## Kaynaklar
 
-## Credits
-
-- [jsPDF](https://github.com/parallax/jsPDF) (MIT licence)
-- Fonts, all under the SIL Open Font License 1.1:
-  - PT Sans and PT Serif by ParaType
-  - Inter by Rasmus Andersson
-  - Atkinson Hyperlegible by the Braille Institute
-  - Bitter by Huerta Tipográfica
+- [Daily Planner Generator](https://github.com/Cosmo-NZ/Daily_Planner) (özgün proje)
+- [jsPDF](https://github.com/parallax/jsPDF) (MIT lisansı)
+- SIL Open Font License 1.1 kapsamındaki yazı tipleri
+  - Ajanda Sans ve Ajanda Serif, ParaType’ın PT Sans ve PT Serif yazı tiplerinden uyarlanmıştır.
+  - Inter, Rasmus Andersson
+  - Atkinson Hyperlegible, Braille Institute
+  - Bitter, Huerta Tipográfica
