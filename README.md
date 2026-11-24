@@ -34,7 +34,12 @@ Boox ve Kobo gibi e-mürekkep cihazları için kişiselleştirilebilir, sayfalar
 
 ### Stoacı Günlük Ajanda
 
-Hazır 2027 sürümü Kobo Libra Colour ölçüsündedir. [2027 Stoacı Günlük Ajanda PDF’si](downloads/2027-stoaci-ajanda-kobo.pdf)
+2027 Stoacı Günlük Ajanda PDF’sini sayfa ölçüsüne göre indirin.
+
+- [3:4 PDF](downloads/2027-stoaci-ajanda-3x4.pdf) (540 × 720 pt)
+- [A4 oranı PDF](downloads/2027-stoaci-ajanda-a4-orani.pdf) (yaklaşık 540 × 763,68 pt)
+- [16:10 PDF](downloads/2027-stoaci-ajanda-16x10.pdf) (540 × 864 pt)
+- [Kobo Libra Colour PDF](downloads/2027-stoaci-ajanda-kobo.pdf) (yaklaşık 540 × 717,72 pt)
 
 **PDF Sürümü** menüsünden **Stoacı Günlük Ajanda** seçildiğinde her günlük plana bir Stoacı söz ve **Şükrettiklerim** başlığı altında üç numaralı yazı satırı eklenir. 366 söz, yıl değişse de ay ve günlere aynı sırayla atanır. 29 Şubat’ın kendine ait bir sözü vardır.
 
