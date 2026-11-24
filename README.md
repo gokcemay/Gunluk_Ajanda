@@ -13,6 +13,7 @@ Boox ve Kobo gibi e-mürekkep cihazları için kişiselleştirilebilir, sayfalar
 
 | Ayar | Seçenekler |
 |---|---|
+| PDF sürümü | Günlük Ajanda veya ayrı bir dosya olarak Stoacı Günlük Ajanda |
 | Belge adı | Kapakta ve dosya adında kullanılır |
 | Takvim yılı | 2026–2035 |
 | Haftanın ilk günü | Pazartesi veya pazar |
@@ -30,6 +31,19 @@ Boox ve Kobo gibi e-mürekkep cihazları için kişiselleştirilebilir, sayfalar
 - **Aylık takvim** her ayın ilk gününden hemen önce gelir. Tarihler, ilgili günlük planı açar. Takvimin altında bir not alanı bulunur.
 - **Günlük plan** yapılacaklar, hatırlatmalar ve saatli program için ayrı alanlar içerir.
 - **Günlük notlar** her gün için bir ila üç çizgili sayfadan oluşur.
+
+### Stoacı Günlük Ajanda
+
+Hazır 2027 sürümü Kobo Libra Colour ölçüsündedir. [2027 Stoacı Günlük Ajanda PDF’si](downloads/2027-stoaci-ajanda-kobo.pdf)
+
+**PDF Sürümü** menüsünden **Stoacı Günlük Ajanda** seçildiğinde her günlük plana bir Stoacı söz ve **Şükrettiklerim** başlığı altında üç numaralı yazı satırı eklenir. 366 söz, yıl değişse de ay ve günlere aynı sırayla atanır. 29 Şubat’ın kendine ait bir sözü vardır.
+
+Sözler kamu malı metinlerden Türkçeye kısaltılarak aktarılmıştır. PDF’deki yazar ve eser satırına dokunarak kaynak metni açabilirsiniz.
+
+- Marcus Aurelius, [Kendime Düşünceler](https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus) (George Long çevirisi, kitap ve bölüm numarası)
+- Epiktetos, [El Kitabı](https://classics.mit.edu/Epictetus/epicench.html) (Elizabeth Carter çevirisi, bölüm numarası)
+- Seneca, [Lucilius’a Mektuplar](https://en.wikisource.org/wiki/Moral_letters_to_Lucilius) (Richard M. Gummere çevirisi, mektup numarası)
+- Tarihsel arka plan için [Vikipedi’nin Stoacılık maddesi](https://tr.wikipedia.org/wiki/Stoac%C4%B1l%C4%B1k) ve [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/stoicism/)
 
 ### Sayfa ölçüleri
 
