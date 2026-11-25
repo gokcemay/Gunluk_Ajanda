@@ -45,6 +45,8 @@ Boox ve Kobo gibi e-mürekkep cihazları için kişiselleştirilebilir, sayfalar
 
 **PDF Sürümü** menüsünden **Stoacı Günlük Ajanda** seçildiğinde her günlük plana bir Stoacı söz ve **Şükrettiklerim** başlığı altında üç numaralı yazı satırı eklenir. 366 söz, yıl değişse de ay ve günlere aynı sırayla atanır. 29 Şubat’ın kendine ait bir sözü vardır.
 
+Her günün son not sayfasındaki **Gün biterken kendine sor** bölümü, Adalet, Cesaret, Ölçülülük ve Bilgelik için birer yazı satırı içerir.
+
 Sözler kamu malı metinlerden Türkçeye kısaltılarak aktarılmıştır. PDF’deki yazar ve eser satırına dokunarak kaynak metni açabilirsiniz.
 
 - Marcus Aurelius, [Kendime Düşünceler](https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus) (George Long çevirisi, kitap ve bölüm numarası)
