@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Günlük Ajanda Oluşturucu</title>
+<link rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">
+<!-- Daily Planner by Cosmo-NZ, adapted into Turkish by gokcemay. See LICENSE and README.md for scope and third-party notices. -->
 <!-- jsPDF: pinned to 4.2.1 from CDN; an embedded copy (see #jspdfFallback) is used automatically if the CDN is unavailable (e.g. offline). -->
 <script src="https://cdn.jsdelivr.net/npm/jspdf@4.2.1/dist/jspdf.umd.min.js" crossorigin="anonymous"></script>
 <style>
@@ -538,6 +540,7 @@
     <a href="https://github.com/gokcemay/Gunluk_Ajanda">Türkçe sürüm · Gunluk_Ajanda</a>
     <a href="https://github.com/Cosmo-NZ/Daily_Planner">Özgün proje · Daily Planner</a>
     <a href="https://github.com/gokcemay">GitHub profili · @gokcemay</a>
+    <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Lisans · CC BY-NC 4.0</a>
   </nav>
 </footer>
 
@@ -1655,6 +1658,26 @@ function drawNotesBody(doc, theme) {
   }
 }
 
+function drawLicenseNotice(doc, theme) {
+  const entries = [
+    ['Özgün proje: Cosmo-NZ', 'https://github.com/Cosmo-NZ/Daily_Planner'],
+    ['Türkçe uyarlama: @gokcemay', 'https://github.com/gokcemay/Gunluk_Ajanda'],
+    ['Ajanda düzeni: CC BY-NC 4.0', 'https://creativecommons.org/licenses/by-nc/4.0/']
+  ];
+  const size = 7, gap = 12, y = PH - 17;
+  doc.setFont(PDF_FONT, 'bold');
+  doc.setFontSize(size);
+  doc.setCharSpace(0);
+  const widths = entries.map(([text]) => doc.getTextWidth(text));
+  const totalWidth = widths.reduce((sum, width) => sum + width, gap * (entries.length - 1));
+  let x = (PW - totalWidth) / 2;
+  entries.forEach(([text, url], i) => {
+    capsText(doc, theme, text, x, y, size, { color: theme.muted, charSpace: 0 });
+    doc.link(x, y - 8, widths[i], 10, { url });
+    x += widths[i] + gap;
+  });
+}
+
 function drawCover(doc, theme, o, monthPage) {
   doc.setFillColor(theme.cover);
   doc.rect(0, 0, PW, PH, 'F');
@@ -1760,6 +1783,7 @@ function buildPdf(o, onProgress) {
       const newPage = () => { if (firstPage) firstPage = false; else doc.addPage([PW, PH]); };
 
       if (o.cover) drawCover(doc, theme, o, monthPage);
+      drawLicenseNotice(doc, theme);
 
       const total = days.length;
       let i = 0;

@@ -87,6 +87,14 @@ Varsayılan ayarlarla 2026 ajandası 1.108 sayfadır.
 
 `index.html` dosyası internet bağlantısı olmadan çalışır. Türkçe karakterleri destekleyen yazı tipleri dosyaya gömülüdür. Sayfa, jsPDF 4.2.1’i jsDelivr üzerinden yükleyemezse gömülü kopyayı kullanır.
 
+## Lisans
+
+Günlük Ajanda, Cosmo-NZ’nin [Daily Planner](https://github.com/Cosmo-NZ/Daily_Planner) projesinin [@gokcemay](https://github.com/gokcemay) tarafından hazırlanan Türkçe uyarlamasıdır. Dil, arayüz ve PDF ayarları güncellendi. Stoacı sürüm ve resmî tatil takvimleri eklendi.
+
+Bu depodaki izinli proje kodu, ajanda düzeni ve özgün katkılar **Creative Commons Atıf–GayriTicari 4.0 Uluslararası (CC BY-NC 4.0)** lisansıyla paylaşılır. Ticari olmayan paylaşım ve uyarlamalarda özgün projeye ve Türkçe uyarlamaya atıf verin, lisansı belirtin ve yaptığınız değişiklikleri açıklayın. PDF’lerdeki bildirim ajanda düzeni için geçerlidir. [Lisans metni](LICENSE) · [Türkçe lisans özeti](https://creativecommons.org/licenses/by-nc/4.0/deed.tr)
+
+Gömülü jsPDF ve yazı tipleri aşağıdaki kendi lisanslarıyla dağıtılır. Kamu malı kaynak metinler ve resmî tatil tarihleri mevcut hak durumlarını korur.
+
 ## Kaynaklar
 
 - [Daily Planner Generator](https://github.com/Cosmo-NZ/Daily_Planner) (özgün proje)
