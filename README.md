@@ -16,6 +16,7 @@ Boox ve Kobo gibi e-mürekkep cihazları için kişiselleştirilebilir, sayfalar
 | PDF sürümü | Günlük Ajanda veya ayrı bir dosya olarak Stoacı Günlük Ajanda |
 | Belge adı | Kapakta ve dosya adında kullanılır |
 | Takvim yılı | 2026–2035 |
+| PDF’ye eklenecek aylar | 12 ay varsayılan olarak seçilidir. Ayların işaretini kaldırarak PDF’nin kapsamını daraltabilirsiniz. |
 | Haftanın ilk günü | Pazartesi veya pazar |
 | Baskın el | Sağ veya sol. Sol el seçildiğinde gezinme düğmeleri karşı tarafa geçer. |
 | Yazı tipi | Ajanda Sans (varsayılan), Inter, Atkinson Hyperlegible, Bitter, Ajanda Serif |
