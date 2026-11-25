@@ -21,6 +21,7 @@ Boox ve Kobo gibi e-mürekkep cihazları için kişiselleştirilebilir, sayfalar
 | Yazı tipi | Ajanda Sans (varsayılan), Inter, Atkinson Hyperlegible, Bitter, Ajanda Serif |
 | Sayfa ölçüsü | 3:4 (varsayılan), A4 oranı, 16:10 veya Kobo Libra Colour |
 | PDF renk teması | Klasik mavi (varsayılan), Lavanta, Adaçayı veya Kiremit. Önizlemeye ve her iki PDF sürümüne uygulanır. |
+| Resmî tatil takvimleri | Türkiye, Almanya, İngiltere ve Galler, ABD (federal). Birden fazla takvim seçilebilir. |
 | Başlangıç ve bitiş saati | 06:00–20:00 arasında 30 dakikalık adımlarla seçilebilir. Varsayılan saatler 08:30 ve 17:00. |
 | Zaman aralığı | Programdaki her satır için 30 veya 60 dakika |
 | Günlük not sayfaları | Günde 1, 2 veya 3 sayfa |
@@ -50,6 +51,15 @@ Sözler kamu malı metinlerden Türkçeye kısaltılarak aktarılmıştır. PDF�
 - Epiktetos, [El Kitabı](https://classics.mit.edu/Epictetus/epicench.html) (Elizabeth Carter çevirisi, bölüm numarası)
 - Seneca, [Lucilius’a Mektuplar](https://en.wikisource.org/wiki/Moral_letters_to_Lucilius) (Richard M. Gummere çevirisi, mektup numarası)
 - Tarihsel arka plan için [Vikipedi’nin Stoacılık maddesi](https://tr.wikipedia.org/wiki/Stoac%C4%B1l%C4%B1k) ve [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/stoicism/)
+
+### Resmî tatil takvimleri
+
+Seçilen tatiller standart ve Stoacı PDF’lerin aylık takviminde ülke koduyla, günlük planında tam adlarıyla görünür. Aynı güne denk gelen tatiller birlikte gösterilir. Yıldız, henüz yayımlanmamış ve mevcut kurallarla hesaplanmış tarihi belirtir.
+
+- **TR** — Türkiye’nin 2026–2035 listeleri. Bayram arifeleri ve 28 Ekim için saat 13.00 bilgisi gösterilir. [Diyanet](https://vakithesaplama.diyanet.gov.tr/)
+- **DE** — Bütün eyaletlerde geçerli tatiller. [Almanya Federal Portalı](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99006001000000)
+- **UK** — İngiltere ve Galler. 2026–2028 için yayımlanmış tarihler, sonraki yıllar için düzenli tatil ve telafi günü kuralları kullanılır. [GOV.UK](https://www.gov.uk/bank-holidays)
+- **US** — ABD federal tatilleri ve bunların uygulandığı telafi günleri. 2030 sonrasındaki tarihler mevcut federal kurallarla hesaplanır. [OPM](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/)
 
 ### Sayfa ölçüleri
 
