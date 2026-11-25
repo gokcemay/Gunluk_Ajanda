@@ -20,6 +20,7 @@ Boox ve Kobo gibi e-mürekkep cihazları için kişiselleştirilebilir, sayfalar
 | Baskın el | Sağ veya sol. Sol el seçildiğinde gezinme düğmeleri karşı tarafa geçer. |
 | Yazı tipi | Ajanda Sans (varsayılan), Inter, Atkinson Hyperlegible, Bitter, Ajanda Serif |
 | Sayfa ölçüsü | 3:4 (varsayılan), A4 oranı, 16:10 veya Kobo Libra Colour |
+| PDF renk teması | Klasik mavi (varsayılan), Lavanta, Adaçayı veya Kiremit. Önizlemeye ve her iki PDF sürümüne uygulanır. |
 | Başlangıç ve bitiş saati | 06:00–20:00 arasında 30 dakikalık adımlarla seçilebilir. Varsayılan saatler 08:30 ve 17:00. |
 | Zaman aralığı | Programdaki her satır için 30 veya 60 dakika |
 | Günlük not sayfaları | Günde 1, 2 veya 3 sayfa |
